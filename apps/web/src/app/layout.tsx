@@ -11,6 +11,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Clause OS",
   description: "Clause OS Chat UX by LangChain",
+  icons: {
+    icon: '/apple-touch-icon.png',
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({
